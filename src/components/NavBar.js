@@ -1,11 +1,13 @@
 import React from 'react'
 import './Navbar.css'
 import { MenuItems} from "./MenuItems"
+import logo from '../Assets/logo.svg'
 
 function NavBar() {
     return (
         <nav className="NavbarItem">
-            <h1 className="Brandname">MXDC</h1>
+            <img src={logo} style={{width: 60, position: 'absolute', left: 20, top: 15}}/>
+
             <ul>
                 {MenuItems.map((item, index) =>{ 
                     return (
