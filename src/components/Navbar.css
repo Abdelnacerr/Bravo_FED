@@ -1,0 +1,28 @@
+.NavbarItem {
+    background: #081810;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    font-size: 1em;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+}
+.Brandname{
+    color: white;
+    position: absolute;
+    Left: 30px;
+}
+
+li {
+    display: inline;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 204, 164);
+    padding-right: 20px;
+}
