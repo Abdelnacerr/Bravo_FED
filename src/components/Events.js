@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import '../App.css'
+import './Events.css'
 function Events() {
     const [Data, setData] = useState([])
     const Api = 'https://87197325.blob.core.windows.net/fed-technical-test/events.json'

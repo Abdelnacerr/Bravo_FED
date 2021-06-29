@@ -26,8 +26,3 @@
 .LPimage{
   width: 100%;
 }
-.Eventdiv{
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-column-gap: 1em;
-}

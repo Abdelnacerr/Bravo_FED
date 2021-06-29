@@ -1,0 +1,21 @@
+.Eventdiv{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 1em;
+}
+img {
+    width: 100%;
+    padding-left: 0;
+}
+.Eventdiv ul:nth-child(2) {
+    margin-top: 40px
+}
+.Eventdiv ul:nth-child(3) {
+    margin-top: 80px
+}
+.Eventdiv ul:nth-child(5) {
+    margin-top: 40px
+}
+.Eventdiv ul:nth-child(6) {
+    margin-top: 80px
+}
