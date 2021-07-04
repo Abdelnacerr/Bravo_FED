@@ -2,27 +2,27 @@ export const MenuItems = [
     {
         title: "Programs",
         url: '#',
-        Name: "Links"
+        Name: "navlinks"
     },
     {
         title: "Partners",
         url: '#',
-        Name: "Links"
+        Name: "navlinks"
     },
     {
         title: "Locations",
         url: '#',
-        Name: "Links"
+        Name: "navlinks"
     },
     {
         title: "About MXDC",
         url: '#',
-        Name: "Links"
+        Name: "navlinks"
     },
     {
         title: "Contact Us",
         url: '#',
-        Name: "Links"
+        Name: "navlinks"
     },
-   
+    
 ]

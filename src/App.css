@@ -1,28 +1,29 @@
 .App {
-  font-family: 'Montserrat';
-  
+	font-family: "Montserrat";
 }
-.OverLaytext {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 5em ;
-  font-weight: 900;
-  white-space: nowrap;
-  
+
+.container {
+	position: absolute;
+	min-height: 50vh;
+	top: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(./Assets/Desktop_header.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 2em;
+	clear: both;
 }
-.OverLaytext1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 3em ;
-  font-weight: 300;
-  
+h1,
+p {
+	padding: 0;
+	margin: 0;
 }
-.LPimage{
-  width: 100%;
+img {
+	object-fit: contain;
 }
